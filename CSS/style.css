@@ -25,25 +25,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Stack buttons vertically */
-    text-align: center; /* Center content horizontally */
-    margin-top: 20px; /* Adjust as needed */
+    flex-direction: column;
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 .buttons .button {
     box-sizing: border-box;
     position: relative;
     display: inline-block;
-    background: linear-gradient(90deg, #7FB7BE, #6dd5ed);
+    background: linear-gradient(90deg, #e4f3e3, #5ca9e9);
     font-family: "Poppins", sans-serif;
     color: #fff;
     padding: 15px 35px;
-    border: none;
     border-radius: 45px;
+    box-shadow: 0 0 5px #fff;
     margin: 0 15px;
     font-size: 30px;
     font-weight: 400;
-    text-decoration: none;
     cursor: pointer;
     overflow: hidden;
     outline: none;
